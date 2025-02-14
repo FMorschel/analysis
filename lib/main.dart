@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// ignore: unused_import
 import 'test.dart';
 
 void main() {
@@ -12,6 +11,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double test = 0.0, test2 = 0;
+    print(test);
     return const MaterialApp(
       home: Scaffold(body: Center(child: Text('Hello World!'))),
     );

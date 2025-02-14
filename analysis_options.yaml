@@ -4,3 +4,4 @@ lints:
   rules:
     prefer_relative_imports: true
     always_use_package_imports: true
+    prefer_int_literals: true
